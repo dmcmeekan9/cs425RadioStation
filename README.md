@@ -1,4 +1,4 @@
-# cs425RadioStation
+# cs425 Radio Station
 ## Dennis McMeekan and Brandon Ahrens
 This is a repo that is made for the creation of a very 
 simple radio station.
