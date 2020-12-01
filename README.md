@@ -6,7 +6,7 @@ simple radio station.
 This is a final project for CS 425: Server Side Web Development.
 
 Six Aspects Used:
-* HTML
+* HTML5
 * PHP
 * Apache
 * MySQL
