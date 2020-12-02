@@ -11,8 +11,52 @@
     </div>
 </div>
 
-<div class="section-colored">
+<!--get song information-->
+<script>
+    //create the listener for alert
+    function reqListener(){
+        console.log(this.responseText);
+    }
 
+    //new request object
+    var oReq = new XMLHttpRequest();
+
+    //initialize the request to get data from getSongs.php
+    oReq.open("get", "php/getSongs.php", true);
+
+    //send the request for data
+    oReq.send();
+
+    //action of what will happen when getting data from getSongs.php if successful.
+    oReq.onload = function(){
+        //data is in this.responseText.
+        //We will handle what we need to do with this data here.
+
+        //parse JSON string into javascript array of objects. Song 1 is songs[0]..., etc.
+        var songs = JSON.parse(this.responseText);
+        var songNames = [];
+        var songArtists = [];
+        var songLengths = []; //will be in 00:04:26.000 format as example.
+        var songMP3s = [];
+
+        //place song data into seperate arrays.
+        songs.forEach(function (song) {
+            songNames.push(song.name);
+            songArtists.push(song.artist);
+            songLengths.push(song.length);
+            songMP3s.push(song.mp3);
+        });
+        
+        //use for testing arrays. All the data is properly placed in the arrays.
+        //comment out to get rid of alert.
+        alert(songNames); //will alert the all the songs names.
+
+        //do what ever else you need to with the data here. Send it to player.js or whatever...
+    };
+</script>
+
+
+<div class="section-colored">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -27,7 +71,7 @@
                 <img src="svg/newlogo.svg" class="center">
 
                 <audio controls>
-                    <source src="https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3" type="audio/mpeg">
+                    <source src="assets/songs/SanHolo_WeRise.mp3" type="audio/mpeg">
                 </audio>
             </div>
         </div>
@@ -47,3 +91,5 @@
         </div>
     </div>
 </div>
+
+<script src="player.js"></script>

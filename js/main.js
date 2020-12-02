@@ -7,7 +7,7 @@ var app = angular.module('webServiceRadioWebPage', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.php", controller: "pageControl"})
+    .when("/", {templateUrl: "partials/home.html", controller: "pageControl"})
     // About
     .when("/about", {templateUrl: "partials/about.html", controller: "pageControl"})
     // 404
