@@ -1,5 +1,5 @@
-// Web Service Radio Application
-var app = angular.module('webServiceRadio', [
+// Web Application
+var app = angular.module('webServiceRadioWebPage', [
   'ngRoute'
 ]);
 
@@ -7,7 +7,7 @@ var app = angular.module('webServiceRadio', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "pageControl"})
+    .when("/", {templateUrl: "partials/home.php", controller: "pageControl"})
     // About
     .when("/about", {templateUrl: "partials/about.html", controller: "pageControl"})
     // 404
