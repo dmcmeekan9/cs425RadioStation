@@ -1,12 +1,10 @@
 /* 
-Custom CSS for...
-'Modern Business' HTML Theme by Start Bootstrap
-All Start Bootstrap themes are licensed under Apache 2.0. 
-For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+    -----------------------------------------------------------------
+    'Modern Business' HTML Theme by Start Bootstrap
+        All Start Bootstrap themes are licensed under Apache 2.0. 
+        Free and Open Source
+    -----------------------------------------------------------------
 */
-
-/* Global Styles */
-
 html, body {
     height: 100%;
 }
@@ -38,7 +36,7 @@ body {
 }
 
 .section-colored {
-    background-color: #e1e1e1;
+    background-color: #d0cbcb;
     /* change this to change the background color of a colored section */
 }
 
@@ -50,17 +48,6 @@ body {
     border-radius: 5px;
     padding: 5px;
     border: 1px solid #cccccc;
-}
-
-/* Half Page Height Carousel Customization */
-.carousel {
-    height: 50%;
-}
-
-.item,
-.active,
-.carousel-inner {
-    height: 100%;
 }
 
 .fill {
@@ -80,49 +67,17 @@ body {
     color: inherit;
 }
 
-.facebook-link a:hover {
-    color: #3b5998;
-}
-
 .linkedin-link a:hover {
     color: #007fb1;
-}
-
-.twitter-link a:hover {
-    color: #39a9e0;
-}
-
-.google-plus-link a:hover {
-    color: #d14836;
 }
 
 .github-link a:hover {
     color: #151d8c;
 }
 
-/* Service Page Styles */
-.service-icon {
-    font-size: 50px;
-}
-
 /* 404 Page Styles */
 .error-404 {
     font-size: 8em;
-}
-
-/* Pricing Page Styles */
-.price {
-    font-size: 4em;
-}
-
-.price-cents {
-    vertical-align: super;
-    font-size: 50%;
-}
-
-.price-month {
-    font-size: 35%;
-    font-style: italic;
 }
 
 /* Footer Styles */
@@ -135,4 +90,16 @@ footer {
     .carousel {
         height: 70%;
     }
+}
+
+audio {
+    display:block;
+    margin: auto;
+ }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

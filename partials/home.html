@@ -2,7 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>WIU Radio: A Great Way to Relax and Enjoy your Studies!</h2>
+                <h1>Web Service Radio Application</h1>
+                <h3>A Great Way to Relax and Enjoy your Studies!</h3>
                 <p>A project created for use in CS 425: Server Side Web Development taught by Dr. Binto George.</p>
                 <hr>
             </div>
@@ -10,53 +11,24 @@
     </div>
 </div>
 
-<img src="./assets/images/lemonade.png" id="background" />
-<audio src="./assets/songs/sanhalo_werise.mp3" id="song"></audio>
-
-
-
 <div class="section-colored">
+
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <h2>Some Features Include:</h2>
                 <ul>
-                    <li>Bootstrap 3 Framework</li>
-                    <li>Mobile Responsive Design</li>
-                    <li>Predefined File Paths</li>
-                    <li>Working PHP Contact Page</li>
-                    <li>Minimal Custom CSS Styles</li>
-                    <li>Unstyled: Add Your Own Style and Content!</li>
-                    <li>Font-Awesome fonts come pre-installed!</li>
-                    <li>100% <strong>Free</strong> to Use</li>
-                    <li>Open Source: Use for any project, private or commercial!</li>
+                    <li>Pause, Play, Forward, Previous</li>
+                    <li>Artist Name, Song Name, and our SVG Logo!</li>
+                    <li>3 Song Library!</li>
                 </ul>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="radio">  
-                    <div class="box"></div>      
-                    <img src="./assets/images/lemonade.png" id="thumbnail" />
-                    
-                    <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
-                    <img src="./assets/icons/forward.png" onclick="nextSong()" id="next-song" />
-                    <img src="./assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
-                
-                    <div class="song-artist">Beyonce</div>
-                    <div class="song-title">Don't Hurt Yourself</div>
-                
-                    <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
-                    
-                    <input 
-                        type="range" 
-                        id="progress-bar" 
-                        min="0" 
-                        max="" 
-                        value="0" 
-                        onchange="changeProgressBar()"
-                    />
-                    <div class="currentTime"></div>
-                    <div class="durationTime"></div>
-                </div>
+                <img src="svg/newlogo.svg" class="center">
+
+                <audio controls>
+                    <source src="https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3" type="audio/mpeg">
+                </audio>
             </div>
         </div>
     </div>
@@ -67,7 +39,7 @@
 <div class="container">
     <div class="row well">
         <div class="col-lg-8 col-md-8">
-            <h4>Without attending Western Illinois University, this project would not have been on the forefront of our attention.</h4>
+            <h4>Through our education achieved at Western Illinois University this was possible.</h4>
             <p>Check out our school's website through the button to the right!</p>
         </div>
         <div class="col-lg-4 col-md-4">

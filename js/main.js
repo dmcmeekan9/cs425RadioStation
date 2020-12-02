@@ -1,33 +1,22 @@
-/**
- * WIU Web Radio Application
- */
-var app = angular.module('basicWebRadio', [
+// Web Service Radio Application
+var app = angular.module('webServiceRadio', [
   'ngRoute'
 ]);
 
-/**
- * Route Configuration
- */
+// Route Configuration
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
-    // Pages
-    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-    // else 404
-    .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
+    .when("/", {templateUrl: "partials/home.html", controller: "pageControl"})
+    // About
+    .when("/about", {templateUrl: "partials/about.html", controller: "pageControl"})
+    // 404
+    .otherwise("/404", {templateUrl: "partials/404.html", controller: "pageControl"});
 }]);
 
-/**
- * Page Controller
- */
-app.controller('PageCtrl', function (/* $scope, $location, $http */) {
-  console.log("Page Controller reporting for duty.");
-
-  // Activates the Carousel
-  $('.carousel').carousel({
-    interval: 5000
-  });
+// Page Controller
+app.controller('pageControl', function () {
+  console.log("Page controller working");
 
   // Activates Tooltips for Social Links
   $('.tooltip-social').tooltip({
