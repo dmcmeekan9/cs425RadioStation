@@ -14,11 +14,11 @@ CONSTRAINT CHK_Cust CHECK (sID > 0));
 
 --insert values
 INSERT INTO songs
-VALUES (000001, 'Lana Del Dre', 'Tep No', 350, 'Tep No - Lana Del Dre.mp3');
+VALUES (000001, 'Lana Del Dre', 'Tep No', 350, 'LanaDelDre_TepNo.mp3');
 
 INSERT INTO songs
-VALUES (000002, 'Up In Flumes [NCS Release]', 'T-Mass', 328, 'T-Mass - Up In Flumes [NCS Release].mp3');
+VALUES (000002, 'Up In Flumes [NCS Release]', 'T-Mass', 328, 'TMass_UpInFlumes.mp3');
 
 INSERT INTO songs
-VALUES (000003, 'We Rise', 'San Holo', 426, 'San Holo - We Rise.mp3');
+VALUES (000003, 'We Rise', 'San Holo', 426, 'SanHolo_WeRise.mp3');
 
