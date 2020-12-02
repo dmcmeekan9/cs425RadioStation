@@ -17,7 +17,7 @@ To run, simply place entire folder inside var/www/html located inside a LAMP ser
         then go to: LAMP/html/cs425RadioStation/index.html
 
 To Do:
-* [ ] In home.html or home.php -> audio can be changed to a media player
+* [ ] In home.html or home.php -> audio can be changed to a media player DONE, using home.html officially.
 * [ ] Use php to get media, artist name and song name
 * [ ] Display artist name, song name, and play media
 * [ ] Finalize Documents
