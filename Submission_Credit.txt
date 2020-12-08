@@ -58,3 +58,10 @@ Assets -> Icons/Songs
 Not created by either of us.
 Free and Open Source project with no financial gain, no royalties involved.
 Used as a basis to implement our Web Service Radio Station.
+
+LOC: 
+PHP - 101
+MySQL - 23
+HTML5 - 243
+SVG - 41
+AngularJS/JavaScript - 143
