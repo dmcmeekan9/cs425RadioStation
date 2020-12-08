@@ -34,12 +34,13 @@ Each aspect of ourwebpage, broken down into partial to better understand and imp
 
 main, player, songInfo.js
 - Dennis McMeekan & Brandon Ahrens
-Main.js specically came from template, to ensure that configuration and routes of the webpage were correct.
+Main.js specifically came from template, to ensure that configuration and routes of the webpage were correct.
 Modified to our needs and specifications.
 Player.js involved expanding upon HTML5 audio and adding certain functions based on MySQL database information
 songInfo.js similar to player.js, but instead of focusing on certain play function, requires backend to actual load
-and open/send data.
-https://www.geeksforgeeks.org/how-to-run-javascript-from-php/?ref=lbp
+and open/send data. player.js adds functionality of continuous play of songs and setting up first song.
+https://stackoverflow.com/questions/23740548/how-do-i-pass-variables-and-data-from-php-to-javascript
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 
 Documentation
 - Dennis McMeekan & Brandon Ahrens
