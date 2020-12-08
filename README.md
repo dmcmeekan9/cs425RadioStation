@@ -17,4 +17,4 @@ To run, simply place entire folder inside var/www/html located inside a LAMP ser
         then go to: LAMP/html/cs425RadioStation/index.html
 
 To Do:
-* [ ] Finalize Documents
+* [x] Finalize Documents
