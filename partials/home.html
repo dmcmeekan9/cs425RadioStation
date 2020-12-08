@@ -1,3 +1,5 @@
+<!-- Essentially the Main Page, Holds Radio Station -->
+<!-- Top Container, Introduction -->
 <div class="section-colored text-center">
     <div class="container">
         <div class="row">
@@ -11,26 +13,30 @@
     </div>
 </div>
 
+<!-- Main Container, holds features and radio station implementation-->
 <div class="section-colored">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <h2>Some Features Include:</h2>
                 <ul>
-                    <li>Pause, Play, Forward, Previous</li>
+                    <li>Pause, Play, Volume and Download!</li>
                     <li>Artist Name, Song Name, and our SVG Logo!</li>
                     <li>3 Song Library!</li>
                 </ul>
             </div>
+
+            <!-- SVG Logo -->
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <img src="svg/newlogo.svg" class="center">
 
+                <!-- https://www.w3schools.com/html/html5_audio.asp -->
                 <audio controls id='audio_controller'>
-                    <source type="audio/mpeg" id="song"><!--Dont really need the id song, unless we plan to implement more buttons. -->
+                    <source type="audio/mpeg" id="song">    <!--Dont really need the id song, unless we plan to implement more buttons. -->
                 </audio>
                 
-                <p id='nameOfSong'></p>
-                <p id='nameOfArtist'></p>
+                <p style="text-align:center" id='nameOfSong'></p>
+                <p style="text-align:center" id='nameOfArtist'></p>
                 
             </div>
         </div>
@@ -39,6 +45,7 @@
 
 <br>
 
+<!-- Lower Container -->
 <div class="container">
     <div class="row well">
         <div class="col-lg-8 col-md-8">
@@ -51,8 +58,8 @@
     </div>
 </div>
 
-<!--get song information-->
+<!-- Get Song Information-->
 <script src="js/songInfo.js"></script>
 
-<!--load the player-->
+<!-- Load the Player-->
 <script src="js/player.js"></script>

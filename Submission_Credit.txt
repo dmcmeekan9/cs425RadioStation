@@ -1,0 +1,60 @@
+Dennis McMeekan & Brandon Ahrens: Tech Tycoons
+CS 425: Final Project - Web Service Radio Station
+Final Submission
+
+Code Credit:
+index.html
+- Dennis McMeekan & Brandon Ahrens
+Used a free startbootstrap HTML5 template - https://startbootstrap.com/template/modern-business
+Learned Ajax Google API to call certain styles and formatting
+Page that brings everything together
+
+header/footer.html
+- Dennis McMeekan & Brandon Ahrens
+Very basic header and footer pages that are to be implemented with each webpage
+Researched previous projects to see how they were used with AngularJS
+
+logo, newlogo, and oldlogo.svg
+- Dennis McMeekan & Brandon Ahrens
+Attempted to use online formatting to ensure SVG graphics were exactly how we wanted.
+Logo, and oldlogo both didn't format properly in terms of actual code so I scratched them.
+Newlogo is what is currently used and properly formats each shape to exact SVG measurements.
+
+connectToDB, getSongs.php, queries.php
+- Dennis McMeekan & Brandon Ahrens
+Research on using PHP, beyond what was previously provided through this course by Dr. Binto George.
+Homepage for Research - https://www.w3schools.com/php/default.asp
+Needed to connect, pull, and query songs and data from the database.
+
+404, about, home.html
+- Dennis McMeekan & Brandon Ahrens
+Expanded upon the template provided by StartBootStrap
+Needed to research basic HTML5 audio - https://www.w3schools.com/html/html5_audio.asp
+Each aspect of ourwebpage, broken down into partial to better understand and implement
+
+main, player, songInfo.js
+- Dennis McMeekan & Brandon Ahrens
+Main.js specically came from template, to ensure that configuration and routes of the webpage were correct.
+Modified to our needs and specifications.
+Player.js involved expanding upon HTML5 audio and adding certain functions based on MySQL database information
+songInfo.js similar to player.js, but instead of focusing on certain play function, requires backend to actual load
+and open/send data.
+https://www.geeksforgeeks.org/how-to-run-javascript-from-php/?ref=lbp
+
+Documentation
+- Dennis McMeekan & Brandon Ahrens
+Follows specifications set by Dr. Binto George
+
+db.sql
+- Dennis McMeekan & Brandon Ahrens
+All information was learned in CS 425: Server Side Web Development
+
+main.css
+- Dennis McMeekan & Brandon Ahrens
+Used free and open source template Modern Business.
+Small modifications were made when needed to fulfill needs of our HTML5.
+
+Assets -> Icons/Songs
+Not created by either of us.
+Free and Open Source project with no financial gain, no royalties involved.
+Used as a basis to implement our Web Service Radio Station.
