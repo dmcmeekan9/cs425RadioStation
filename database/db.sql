@@ -22,3 +22,6 @@ VALUES (000002, 'Up In Flumes [NCS Release]', 'T-Mass', 328, 'TMass_UpInFlumes.m
 INSERT INTO songs
 VALUES (000003, 'We Rise', 'San Holo', 426, 'SanHolo_WeRise.mp3');
 
+INSERT INTO songs
+VALUES (000004, 'Hey Brother TEEMID and Tessa Cover', 'Avicii', 509, 'Avicii_Hey_Brother_TEEMID_and_Tessa_Cover.mp3');
+

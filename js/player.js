@@ -39,7 +39,7 @@ function nextSong(){
     
     //check to see if last song ended. If so, loop back to first song
     //by resetting index back to 0.
-    if (index > 2){
+    if (index > songMP3FilePaths.length-1){
         index = 0;
     }
 
