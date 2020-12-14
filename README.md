@@ -9,6 +9,7 @@ song information in a database.
 This is a final project for CS 425: Server Side Web Development.
 
 Aspects Used:
+* Turnkey LAMP
 * HTML5
 * PHP
 * JavaScript
