@@ -26,9 +26,9 @@ Aspects Used:
 * Once all this is done, navigate to Your_chosen_directory in your server in your chosen web browser and enjoy the music or add your own!
 
 ## Screenshots:
-![Screenshot of home page:](https://github.com/dmcmeekan9/cs425RadioStation/blob/main/screenshots/homepage.JPG "home page")
-![Screenshot of about page:](https://github.com/dmcmeekan9/cs425RadioStation/blob/main/screenshots/aboutpage.JPG "about page")
-![Screenshot of home page error prompt:](https://github.com/dmcmeekan9/cs425RadioStation/blob/main/screenshots/error.JPG "home page error prompt")
+![Screenshot of home page:](https://github.com/dmcmeekan9/cs425RadioStation/blob/main/screenshots/homepage.jpg "home page")
+![Screenshot of about page:](https://github.com/dmcmeekan9/cs425RadioStation/blob/main/screenshots/aboutpage.jpg "about page")
+![Screenshot of home page error prompt:](https://github.com/dmcmeekan9/cs425RadioStation/blob/main/screenshots/error.jpg "home page error prompt")
 
 
 
