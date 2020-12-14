@@ -1,8 +1,8 @@
 <?php
   //This php file gets the songs from the database.
 
-  include 'connectToDB.php';
-  include 'queries.php';
+  include_once 'connectToDB.php';
+  include_once 'queries.php';
 
     //connect to db, will return with connection if connection was established correctly.
     $con = connect(); //from connectToDB.php
