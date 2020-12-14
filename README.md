@@ -25,9 +25,15 @@ Aspects Used:
 * Source in the .sql file from databae/db.sql by accessing MySql from CLI and typing 'source db.sql'
 * Once all this is done, navigate to Your_chosen_directory in your server in your chosen web browser and enjoy the music or add your own!
 
+## Screenshots:
+![Screenshot of home page:](https://github.com/dmcmeekan9/cs425RadioStation/blob/master/screenshots/homepage.PNG "home page")
+![Screenshot of about page:](https://github.com/dmcmeekan9/cs425RadioStation/blob/master/screenshots/aboutpage.PNG "about page")
+![Screenshot of home page error prompt:](https://github.com/dmcmeekan9/cs425RadioStation/blob/master/screenshots/error.PNG "home page error prompt")
+
+
 
 ## To do:
 * [] Improve Security (encryption)
-* [] Optimize Performance
+* [x] Optimize Performance
 * [] Select song list functionality
 * [] Exapnd song library

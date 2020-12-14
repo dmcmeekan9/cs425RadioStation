@@ -7,7 +7,7 @@
     function connect(){
         //connection parameters
         $server_name = "localhost";
-        $user = "adminer";
+        $user = "adminer"; //add user name
         $pass = "";  //add your password
         $db = "RadioStation";
 

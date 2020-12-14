@@ -59,5 +59,5 @@ oReq.send();
 
 //will check to see if connection to database was successful and song information was gotten.
 if (gotSongs == false){
-    alert("Check to see if password is set to connect to database in php/connectToDB");
+    alert("Check to see if password is set to connect to database");
 }
